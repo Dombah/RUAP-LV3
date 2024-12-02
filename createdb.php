@@ -12,7 +12,7 @@
  else {
     echo 'Connected successfully';
  }
- $sql = 'CREATE Database ruapdb';
+ $sql = 'CREATE Database dleskovic2-database';
  if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
  } else {
